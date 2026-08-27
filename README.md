@@ -41,7 +41,6 @@ so clear them out before you share the link.
 - [ ] Conference presentations
 - [ ] Teaching history
 - [ ] Google Scholar and LinkedIn links, or delete that row
-- [ ] Update the "Last updated" line in each footer as you go
 - [ ] Add `files/jmp.pdf` once the draft is ready to circulate
 
 ## Updating
