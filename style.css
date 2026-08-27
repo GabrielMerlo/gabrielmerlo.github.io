@@ -74,6 +74,9 @@ header.site .wrap {
   white-space: nowrap;
 }
 
+/* Home page has no brand, so the lone nav sits right instead of left. */
+header.site .wrap > nav.site:only-child { margin-left: auto; }
+
 nav.site {
   display: flex;
   flex-wrap: wrap;
