@@ -1,0 +1,8 @@
+# https://gabrielmerlo.github.io
+User-agent: *
+Allow: /
+
+# research.html and teaching.html carry <meta name="robots" content="noindex">
+# while they still hold placeholders. They are deliberately not in the sitemap.
+
+Sitemap: https://gabrielmerlo.github.io/sitemap.xml
