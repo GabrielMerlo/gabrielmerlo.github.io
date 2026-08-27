@@ -7,22 +7,36 @@
 <meta name="robots" content="noindex">
 <title>Teaching | Gabriel Merlo</title>
 <link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 </head>
 <body>
 
 <header class="site">
   <div class="wrap">
     <a class="brand" href="index.html">Gabriel Merlo</a>
+    <div class="head-right">
     <nav class="site">
       <a href="index.html">Home</a>
       <!-- Hidden until each page is ready. Uncomment a line here to switch that tab on,
            and make the same change in index.html, research.html and teaching.html so the
            nav matches everywhere. The CV line also needs files/cv.pdf to exist.
+      <a href="files/cv.pdf">CV</a>
       <a href="research.html">Research</a>
       <a href="teaching.html" aria-current="page">Teaching</a>
-      <a href="files/cv.pdf">CV</a>
       -->
     </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+        </svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>
 

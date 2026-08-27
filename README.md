@@ -11,13 +11,14 @@ Hosted free on GitHub Pages.
 | `research.html` | Job market paper, working papers, work in progress. Hidden. |
 | `teaching.html` | Courses, evaluations. Hidden. |
 | `style.css` | All styling, shared by every page |
+| `theme.js` | Light/dark toggle. Applies the saved choice before the page paints |
 | `files/` | CV, papers, headshot |
 
 ## The nav
 
-Only **Home** is switched on. Research, Teaching and CV sit commented out in the `<nav>`
-block of all three HTML files. To switch a tab on, uncomment its line in **all three**
-files so the nav is the same everywhere.
+Only **Home** is switched on. CV, Research and Teaching sit commented out in the `<nav>`
+block of all three HTML files, in that order. To switch a tab on, uncomment its line in
+**all three** files so the nav is the same everywhere.
 
 `research.html` and `teaching.html` are still in the repo while hidden, so their URLs work
 if someone types them directly. Nothing sensitive is on them, but clear the `[BRACKETS]`
@@ -32,7 +33,7 @@ so clear them out before you share the link.
 ## Checklist
 
 - [ ] Add `files/cv.pdf`, then uncomment the CV line in the nav of all three pages
-      and the download buttons in `index.html`
+      and the download buttons in `index.html`. CV sits second in the nav, after Home
 - [ ] Switch on the Research tab once its placeholders are cleared
 - [ ] Switch on the Teaching tab once its placeholders are cleared
 - [ ] Job market paper: uncomment the block in `research.html`, the sentence in
@@ -48,8 +49,12 @@ so clear them out before you share the link.
 Edit the HTML, commit, push. The live site updates in about a minute.
 
 To change colors, fonts, or spacing site-wide, edit the `:root` variables at the
-top of `style.css`. Dark mode colors are in the `@media (prefers-color-scheme: dark)`
-block right below.
+top of `style.css`. Dark colors are in the `:root[data-theme="dark"]` block right below.
+
+The site is **light by default**, whatever the visitor's system is set to. The moon
+button in the header switches to dark and remembers the choice in that browser. To
+follow the visitor's OS setting instead, wrap the `:root[data-theme="dark"]` block in
+`@media (prefers-color-scheme: dark)`.
 
 ## One rule worth following
 
