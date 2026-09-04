@@ -6,6 +6,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://gabrielmerlo.github.io/teaching.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gabrielmerlo.github.io/files/cv.pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
