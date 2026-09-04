@@ -187,8 +187,8 @@ a:hover { text-decoration-thickness: 2px; }
 
 .headshot {
   flex: 0 0 auto;
-  width: 170px;
-  height: 210px;
+  width: 200px;
+  height: 247px;
   object-fit: cover;
   border-radius: 3px;
   background: var(--bg-soft);
@@ -197,7 +197,7 @@ a:hover { text-decoration-thickness: 2px; }
 
 @media (max-width: 600px) {
   .intro { flex-direction: column-reverse; gap: 1.5rem; }
-  .headshot { width: 150px; height: 185px; }
+  .headshot { width: 170px; height: 210px; }
   h1 { font-size: 1.75rem; }
   body { font-size: 16px; }
 }
