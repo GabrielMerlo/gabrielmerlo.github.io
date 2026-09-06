@@ -2,7 +2,8 @@
 User-agent: *
 Allow: /
 
-# research.html and teaching.html carry <meta name="robots" content="noindex">
-# while they still hold placeholders. They are deliberately not in the sitemap.
+# All pages are live and listed in the sitemap. If a new page is added while it
+# still holds placeholders, give it <meta name="robots" content="noindex"> and keep
+# it out of the sitemap until it is ready.
 
 Sitemap: https://gabrielmerlo.github.io/sitemap.xml
